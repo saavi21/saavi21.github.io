@@ -1,0 +1,29 @@
+version: 0.0
+os: linux
+files:
+  - source: /index.html
+    destination: /var/www/html/
+  - source: /images/s.jpg
+    destination: /var/www/html/
+  - source: /images/sharda.jpg
+    destination: /var/www/html/
+  - source: /css/styles.css
+    destination: /var/www/html/css/
+  - source: /css/fonts/kalimati.ttf
+    destination: /var/www/html/css/fonts/kalimati.ttf
+  - source: /css/fonts/Kokila.ttf
+    destination: /var/www/html/css/fonts/Kokila.ttf
+  - source: /css/fonts/Lohit-Devanagari.ttf
+    destination: /var/www/html/css/fonts/Lohit-Devanagari.ttf    
+hooks:
+  BeforeInstall:
+    - location: scripts/install_dependencies
+      timeout: 300
+      runas: root
+    - location: scripts/start_server
+      timeout: 300
+      runas: root
+  ApplicationStop:
+    - location: scripts/stop_server
+      timeout: 300
+      runas: root

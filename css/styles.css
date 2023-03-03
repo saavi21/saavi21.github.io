@@ -1,0 +1,36 @@
+body {
+   background-image: linear-gradient(-75deg, #93B874, #C9DCB9);
+}
+
+@font-face {
+  font-family: 'Kalimati';
+  src: url('Kalimati.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+*{
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 900px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+img {
+     display: block;
+	 margin-left: auto;
+     margin-right: auto;
+	}

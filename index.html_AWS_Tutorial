@@ -1,0 +1,459 @@
+
+<!DOCTYPE html PUBLIC "Testing//EN" "">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="HTML Tidy for HTML5 for Apple macOS version 5.6.0" />
+  <title>AWS Tutorial</title>
+  <p style="color:blue"<p style="font-family:serif;"> </p>
+</head>
+<TABLE BORDER=".01"    WIDTH="100%"   CELLPADDING="1" CELLSPACING="0"  STYLE="background-color:#FFFFE0">
+  <TR ALIGN="LEFT" style="background-color:#000;font-size:18px;color:#F8F9F9;" >
+      <TD>
+
+					<style>
+					a:link {
+					  color: pink;
+					  background-color: transparent;
+					  text-decoration: none;
+					}
+
+					a:visited {
+					  color: green;
+					  background-color: transparent;
+					  text-decoration: none;
+					}
+
+					a:hover {
+					  color: red;
+					  background-color: transparent;
+					  text-decoration: underline;
+					}
+
+					a:active {
+					  color: yellow;
+					  background-color: transparent;
+					  text-decoration: underline;
+					}
+					</style>
+
+
+        <div id="w3c_content_body">
+        
+          <div class="line">
+            <div class="unit size1on2">
+              <h2 id="sitemap">AWS Cloud Architect</h2>
+              <div id="indexlist"><ul><li></b>Contents</b></a>
+			  <ul>
+			     <li><b>Section-1</b></a>
+				    <ul>
+						<li><a href="https://drive.google.com/file/d/1zwg9nLecFApziCy08lH4NP1Nwa8GUcHm/view?usp=sharing  " title="How to Use this Course">Section 1: How to Use this Course</a></li>
+						<li><a href="https://drive.google.com/file/d/1oMdAO3JuGadFTewYXYSGmmFtgZ8uE-Vg/view?usp=sharing  " title="JavaScript Web APIs">Connect with Neal & Support</a></li>
+						<li><a href="https://drive.google.com/file/d/1X1bD_BxZXXD9hFh8oWoR6550Tn70nODc/view?usp=sharing  " >The SAA-C02 Exam</a></li>
+						<li><a href="https://drive.google.com/file/d/13F97Z9Ko6jF0z_CiRi_dja89h3GA1L5X/view?usp=sharing " >Hands-On Practice: Free Tier vs Sandbox</a></li>
+						<li><a href="https://drive.google.com/file/d/1AyacBXPmMyx-ldhQFewkJuXbQJkquOtb/view?usp=sharing  " >AWS Account Overview</a></li>
+						<li><a href="https://drive.google.com/file/d/1JeD5-s6s2QzQwdvjgChSeZrYw1Da7DtU/view?usp=sharing " >Create your AWS Free Tier Account</a></li>
+						<li><a href=" https://drive.google.com/file/d/1NMy_TK-zX2bHlzZ--e3xUeQk-zOmDpKt/view?usp=sharing " >Configure Account and Create a Billing Alarm</a></li>
+						<li><a href=" https://drive.google.com/file/d/1Lup8yTM3-xlB0b_0wjATO1w7TX2gb1F4/view?usp=sharing " >Install Tools (AWS CLI, VS Code, CloudShell)</a></li>
+						
+				    </ul>
+				</li>
+
+
+
+
+				<li><b>Section-2</b></a>
+					<ul>
+						<li><a href="https://drive.google.com/file/d/1GR7-Sc0mdPn6QLLtXCNMXNh6Jk0DG3vA/view?usp=sharing " >Section 2: Introduction</a></li>
+						<li><a href="https://drive.google.com/file/d/1ErXSemGsbBnc-WV6TEbxevy4NHUQQ-zh/view?usp=sharing  "> AWS IAM Overview</a></li>	
+						<li><a href="https://drive.google.com/file/d/1ymV6MfKp-Nbgbfe63jdZ4Zd1IJB-8ES5/view?usp=sharing  "> IAM Users, Groups, Roles, and Policies</a></li>	
+						<li><a href="https://drive.google.com/file/d/1PQUcaYx55HnRRwGvP2XITVmksBp2mHp5/view?usp=sharing  "> Setup Individual User Account</a></li>	
+						<li><a href="https://drive.google.com/file/d/1ezoLTvXCljdccASCRih1YJj8arT6JOoc/view?usp=sharing  "> IAM Authentication and MFA</a></li>	
+						<li><a href="https://drive.google.com/file/d/1cAHIiiO9-Le1ICMqN1uLdUiETyOS_7Wg/view?usp=sharing  "> Setup Multi-Factor Authentication (MFA)</a></li>	
+						<li><a href="https://drive.google.com/file/d/1_H9135_aQEv8n1y3woleOR3ejPoWBh-o/view?usp=sharing  "> AWS Security Token Service (STS)</a></li>	
+						<li><a href=" https://drive.google.com/file/d/1-YaRzmZXgdg45YFgE7ccgVHO-iUoqfuv/view?usp=sharing "> IAM Password Policy</a></li>	
+						<li><a href=" https://drive.google.com/file/d/1Cj2AVbD6qp-dQgNqgyTQoLhP76nIii-8/view?usp=sharing "> Identity-Based Policies and Resource-Based Policies</a></li>	
+						<li><a href=" https://drive.google.com/file/d/1d2A8bUIgwhp95fKM3BFyGXGEU5VVt1ZH/view?usp=sharing "> IAM Policy Evaluation Logic</a></li>	
+						<li><a href="https://drive.google.com/file/d/1NEIEjCImnkP3N9KTtbP58eyg40aP_O72/view?usp=sharing  "> IAM Policy Structure</a></li>	
+						<li><a href="https://drive.google.com/file/d/1s6D0oUNJ0zp-lKS_MWEijEO3Z03H5l0d/view?usp=sharing  "> IAM Policy Simulator</a></li>	
+						<li><a href="https://drive.google.com/file/d/1k29iov4lX7wDoXwo4jksn7PCJd7mAfKR/view?usp=sharing  "> IAM Best Practices</a></li>	
+						<li><a href="https://drive.google.com/file/d/1X2l9UDS15vzdkewztnQnfC8ye719NMwn/view?usp=sharing  "> Architecture Patterns - IAM</a></li>	
+						<li><a href="https://drive.google.com/file/d/1hj85lbAtmoukk1XzUgMJJqmrO-fLEtNk/view?usp=sharing  "> Exam Cram - IAM</a></li>	 
+						<li><a href="https://drive.google.com/file/d/10YgbnOG4cm80aKugZ476UG64voG8cCpl/view?usp=sharing  "> Digital cloud training</a></li>	
+						<li><a href="https://drive.google.com/file/d/1f71F3UJN2MbTvLBSFza-VzlxIomrKU0O/view?usp=sharing  "> How to enable MFAfor your root account</a></li>
+				
+				
+					</ul>
+				</li>
+
+				<li><b>Section-3</b></a>
+					<ul>
+						<li><a href="https://drive.google.com/file/d/14XURKZX6y187_y21ltrQ87lzcy1ANJ8w/view?usp=sharing  ">Section 3: Introduction</a></li>
+						<li><a href="https://drive.google.com/file/d/1wJN_OOio3GvWNoIDworgIcSOEHPSIh5j/view?usp=sharing  ">  Amazon Elastic Compute Cloud (EC2)</a></li>
+						<li><a href="https://drive.google.com/file/d/1k-zwE8uJgx4vdLdYAa4xiGnI8TUYucDW/view?usp=sharing  ">  Launch EC2 Instances (Windows + Linux)</a></li>
+						<li><a href="https://drive.google.com/file/d/1E1Ef0SxILIZfwQsnY86tT2yMtMo72omE/view?usp=sharing  ">  EC2 Instance Connect and SSH</a></li>
+						<li><a href="https://drive.google.com/file/d/1LvqVH1pMzi3_vX5wFJ5bs7-17BcOOk81/view?usp=sharing  ">  RDP to Windows Instance</a></li>
+						<li><a href="https://drive.google.com/file/d/1aHijFuRy1K5XzK67IlPw7QzRZ61FvxvX/view?usp=sharing  ">  Amazon EC2 User Data and Metadata</a></li>
+						<li><a href="https://drive.google.com/file/d/1vi7OzWaWRdfrt8bgRt9EwKSsoxJxcPQ0/view?usp=sharing  ">  Launch Instance with User Data and Metadata</a></li>
+						<li><a href="https://drive.google.com/file/d/1FCwayJ7pZn3_yTaTYztfpZMr5TsaTw2X/view?usp=sharing  ">  Accessing Services – Access Keys and IAM Roles
+				</a></li>
+						<li><a href=" https://drive.google.com/file/d/1izQgMytkyGwuCBc2Ox-fUk6IxCvbzF5M/view?usp=sharing ">  Access Keys and IAM Roles</a></li>
+						<li><a href="https://drive.google.com/file/d/102inBwjP8dxK1WIVQ8cKxBY9DmzuFw6B/view?usp=sharing  ">  Status Checks and Monitoring</a></li>
+						<li><a href=" https://drive.google.com/file/d/13tKSjc7Vk202kseS80CHH_JwquNH88le/view?usp=sharing ">  EC2 Placement Groups</a></li>
+						<li><a href="https://drive.google.com/file/d/1W7XhjyA1NzIecyiXlkbV0lFDm1fcPi8T/view?usp=sharing  ">  Network Interfaces (ENI, ENA, EFA)</a></li>
+						<li><a href=" https://drive.google.com/file/d/1EbOmnXdRZZzu1uGeN0V82-9TBBndMuwQ/view?usp=sharing ">  Working with ENIs</a></li>
+						<li><a href="https://drive.google.com/file/d/1DgWGx7YA1QMchmkuFB5Ao7kRbAFGQNGS/view?usp=sharing  ">  Public, Private and Elastic IP Addresses</a></li>
+						<li><a href="https://drive.google.com/file/d/1FCA1Mc-itruqkHqgARwZM3OrOV5ae_L_/view?usp=sharing  ">  NAT for Public Addresses</a></li>
+						<li><a href="https://drive.google.com/file/d/1OJQwj3SrW6KMD1rtB2pItii5LYlKKgWT/view?usp=sharing  ">  Working with EC2 IP addresses</a></li>
+						<li><a href="https://drive.google.com/file/d/1m0L2MF-WYMu-cb-4FXqAlwtifjY3nXaW/view?usp=sharing  ">  Private Subnets and Bastion Hosts</a></li>
+						<li><a href="https://drive.google.com/file/d/1W2Ub92pT9K_vp0qRh_5YSJVckrw7n14z/view?usp=sharing  ">  Private Subnets and Bastion Hosts</a></li>
+						<li><a href="https://drive.google.com/file/d/1QeUlKrF5Y9gZpHp7s88binGwwnb-Bd7A/view?usp=sharing  ">  NAT Gateways and NAT Instances Overview</a></li>
+						<li><a href="https://drive.google.com/file/d/1SwQFO9V5_cqScDsQbKU9SHRKPz--l1gu/view?usp=sharing  ">  Private Subnet with NAT Gateway</a></li>
+						<li><a href=" https://drive.google.com/file/d/1k0gDSO_QcszVwMp9Z2N1i1q-2UO_mGPn/view?usp=sharing ">  EC2 Instance Lifecycle</a></li>
+						<li><a href=" https://drive.google.com/file/d/1xPT2C4BAEK6GbojBv0IpgOQ836gjT8KH/view?usp=sharing ">  Nitro Instances and Nitro Enclaves</a></li>
+						<li><a href="https://drive.google.com/file/d/1dHftg8P9DffNbPNUGd9d1Sb4h0LkcuMd/view?usp=sharing  ">  Amazon EC2 Pricing Options</a></li>
+						<li><a href=" https://drive.google.com/file/d/1i_ezwNKVvxvF0kgLrnzCxMmInTViilla/view?usp=sharing ">  Amazon EC2 Pricing Use Cases</a></li>
+						<li><a href="https://drive.google.com/file/d/18MBge6tB_ibdWT570hndPBPTS9y06YDj/view?usp=sharing  ">  Architecture Patterns - EC2</a></li>
+						<li><a href="https://drive.google.com/file/d/1iDJDTR1ZUOagN1djr6Q-a6GI_laGJabn/view?usp=sharing  ">  Exam Cram - EC2</a></li>
+				
+				
+					</ul>
+				</li>
+ 
+ 
+ 				<li><b>Section-4</b></a>
+					<ul>
+					
+						    <li><a href=" https://drive.google.com/file/d/1IrSwn1CI8H4FYHkqzKuIUYeszMTMXSpp/view?usp=sharing ">Section 4: Introduction</a></li>
+							<li><a href="https://drive.google.com/file/d/1l-WNV28uSDutJj13OMqjawHw4rup3ayb/view?usp=sharing  ">   Elasticity: Scaling Up vs Out</a></li>
+							<li><a href=" https://drive.google.com/file/d/1l-WNV28uSDutJj13OMqjawHw4rup3ayb/view?usp=sharing ">   Amazon EC2 Auto Scaling</a></li>
+							<li><a href=" https://drive.google.com/file/d/1ADtw6Id7F82DSLmQ-0LKYJngR4SVLgQE/view?usp=sharing ">   Create an Auto Scaling Group</a></li>
+							<li><a href=" https://drive.google.com/file/d/137E7_e8WqzQCd_fQ7F2fsL0ncZhNMvja/view?usp=sharing ">   Load Balancing and High Availability</a></li>
+							<li><a href=" https://drive.google.com/file/d/1XMi_42a_guAvHxp-AcwhktzvcEyOFPYp/view?usp=sharing ">   Types of Elastic Load Balancer</a></li>
+							<li><a href="https://drive.google.com/file/d/1XMi_42a_guAvHxp-AcwhktzvcEyOFPYp/view?usp=sharing  ">   Routing with ALB and NLB</a></li>
+							<li><a href=" https://drive.google.com/file/d/1BdDYrxwQqTeofcw6WYbgcwsKV6G-xhtX/view?usp=sharing ">   Create Target Groups</a></li>
+							<li><a href="https://drive.google.com/file/d/1eQivrlEeoRn0d4QorHfmX7WMSJzTrAmI/view?usp=sharing  ">   Network Load Balancer (NLB)</a></li>
+							<li><a href=" https://drive.google.com/file/d/19F1j_pMPNXlgLb686lK_F6iWMaG69GVB/view?usp=sharing ">   Application Load Balancer (ALB)</a></li>
+							<li><a href="https://drive.google.com/file/d/1ODKtsu5Yqis_ekQuM4BhIraj8mEs3_uM/view?usp=sharing  ">   ALB - Query String Routing</a></li>
+							<li><a href="https://drive.google.com/file/d/1Mp4h8bC0DbLUNQfQqhtoFH34XDJiRiAE/view?usp=sharing  ">   Amazon EC2 Scaling Policies</a></li>
+							<li><a href=" https://drive.google.com/file/d/1U49RyCb06X-WBchotjl_12jFZ91lm1tS/view?usp=sharing ">   Elastically Scale the Application</a></li>
+							<li><a href="https://drive.google.com/file/d/1HXOLn2bwLQch-Wj7yUzbEoYa1aXr3-iK/view?usp=sharing  ">   Cross-Zone Load Balancing</a></li>
+							<li><a href="https://drive.google.com/file/d/1wE6xqLFGVU04bpEESa4V_3EC1hRyLePL/view?usp=sharing  ">   Session State and Session Stickiness</a></li>
+							<li><a href=" https://drive.google.com/file/d/1bA41LjciWaEVWH7dFgvxEYdVJvWNNxkw/view?usp=sharing ">   Enable Sticky Sessions</a></li>
+							<li><a href=" https://drive.google.com/file/d/1-ottEPBnCoO55iXX1KUXtqJVsq15sODY/view?usp=sharing ">   Secure Listeners for ELB</a></li>
+							<li><a href="https://drive.google.com/file/d/1v2BZLK9sJIPusSFg9p5_Sd1cQqj9e2Ro/view?usp=sharing  ">   Create a Secure Listener</a></li>
+							<li><a href=" https://drive.google.com/file/d/1S68vzu4a3xw5M_wMFV70TuPtY69ZpSr0/view?usp=sharing ">   Clean-up Resources</a></li>
+							<li><a href="https://drive.google.com/file/d/1InrF4fg-IRriGfejUY8l-t4JN05-k8LS/view?usp=sharing  ">   Architecture Patterns - ELB + ASG</a></li>
+							<li><a href="https://drive.google.com/file/d/1xvXrKbgKeFO15xS45gZVXYgyGiM86rvx/view?usp=sharing  ">   Exam Cram - ELB + ASG</a></li>
+					
+					
+					
+				
+				
+					</ul>
+				</li>
+				
+				
+				<li><b>Section-5</b></a>
+					<ul>
+						<li><a href="https://drive.google.com/file/d/1QhbnW9Ndc1qlsaoXAP5EqIM3vwZtVHDx/view?usp=sharing " >Section 5: Introduction</a></li>
+						<li><a href="https://drive.google.com/file/d/1SSdC7dmrJriuV0mwr6tS-N_jjddOuPvw/view?usp=sharing " >AWS Organizations</a></li>
+						<li><a href="https://drive.google.com/file/d/1rD-zU9zIOrTax9Yc5jD-WhpZy-nRnkoO/view?usp=sharing  " >Create Organization and add Account</a></li>
+						<li><a href="https://drive.google.com/file/d/1DH6RBpAXHCbjuJxyEVu_6K0r_iV05JkT/view?usp=sharing " >Service Control Policies (SCPs)</a></li>
+						<li><a href="https://drive.google.com/file/d/1aYRcaLCDM6iyf0s8y6hrY32g4JlZO5nE/view?usp=sharing  " >Create Service Control Policy (SCP)</a></li>
+						<li><a href="https://drive.google.com/file/d/1-70V774aWTsyiNe2Fxvlor_8TM2E64KC/view?usp=sharing  " >Architecture Patterns - AWS Organizations</a></li>
+						<li><a href="https://drive.google.com/file/d/1T5HqfBT4T0Fp1lhscve0TIliUYmmz35F/view?usp=sharing  " >Exam Cram - AWS Organizations</a></li>
+				
+				
+					</ul>
+				</li>
+ 
+ 
+ 				<li><b>Section-6</b></a>
+					<ul>
+						<li><a href="https://drive.google.com/file/d/1zXyugjrIDL1aAXiep9Y-ivjm0_zTosko/view?usp=sharing  " >Section 6: Introduction</a></li></a></li>
+						<li><a href="https://drive.google.com/file/d/1q3nh0MAfO2BGr4gReCOkBdQQOfdCOUlJ/view?usp=sharing  " >IPv4 Addressing Primer</a></li>
+						<li><a href="https://drive.google.com/file/d/16Z5Hf7bEXpl1FJR-h6_eT9I0Qr0Nhcl2/view?usp=sharing  " >Amazon VPC Overview</a></li>
+						<li><a href="https://drive.google.com/file/d/1VZHh_xrzb0Szed6dIaEH4dpvIrP0Q_JM/view?usp=sharing  " >Defining VPC CIDR Blocks</a></li>
+						<li><a href="https://drive.google.com/file/d/1xEK_1YItVhKYUiooFqUh0zUDX64xGSbv/view?usp=sharing  " >VPC Wizard</a></li>
+						<li><a href="https://drive.google.com/file/d/1rJJ4CAlXu0CLKvGxTQHDtEdeplWftOiw/view?usp=sharing  " >Create a Custom VPC with Subnets</a></li>
+						<li><a href="https://drive.google.com/file/d/1Wjca-zrtzBaewMI5wWb81QsmviCmIMYd/view?usp=sharing  " >Launch Instances and Test VPC</a></li>
+						<li><a href="https://drive.google.com/file/d/1Xme8n-5b2YY2RAigYO0yr7k70rVKX3gO/view?usp=sharing  " >Security Groups and Network ACLs</a></li>
+						<li><a href="https://drive.google.com/file/d/1u4jk6BTtIYHUS0LXgKqw8IAd9RSlH6cp/view?usp=sharing  " >Configure Security Groups and NACLs</a></li>
+						<li><a href="https://drive.google.com/file/d/1r-C8BJrfKJQBzCJ9ewQZbwmQYjbtnrmv/view?usp=sharing " >Amazon VPC Peering</a></li>
+						<li><a href="https://drive.google.com/file/d/1sakYmh-8kRSGk9rpluBCvKC0FDc6R9E5/view?usp=sharing  " >Configure VPC Peering</a></li>
+						<li><a href="https://drive.google.com/file/d/1v35KKAtk7vxMRAOJ2QGeXlh1MGQxjhbB/view?usp=sharing  " >VPC Endpoints</a></li>
+						<li><a href="https://drive.google.com/file/d/1Q71sHumKlH9MFdaNZx58irhrkNE6c0uB/view?usp=sharing  " >Create VPC Endpoint</a></li>
+						<li><a href=" https://drive.google.com/file/d/1yyVDZO5-MakIg4MHPBIv8KuvQbaiAn9l/view?usp=sharing " >AWS Client VPN</a></li>
+						<li><a href="https://drive.google.com/file/d/1Hyx4FBNy9H-DVb8D3oSNRpuUnaM1T6tl/view?usp=sharing  " >AWS Site-to-Site VPN</a></li>
+						<li><a href="https://drive.google.com/file/d/1-wAT7OTn04QAxa6wFyeGlOPYnSe3tUJQ/view?usp=sharing  " >AWS VPN CloudHub</a></li>
+						<li><a href="https://drive.google.com/file/d/1WolUjTVLt5zyp1tQ33sOK9edXRxBmavg/view?usp=sharing  " >AWS Direct Connect (DX)</a></li>
+						<li><a href="https://drive.google.com/file/d/1uUJ6jRLnI4qThD-R1PZH9IMxPywiQxyc/view?usp=sharing  " >AWS Direct Connect Gateway</a></li>
+						<li><a href="https://drive.google.com/file/d/1K3r6u5bqV6p1E3moDnUHfTjH1-yfN4aa/view?usp=sharing  " >AWS Transit Gateway</a></li>
+						<li><a href="https://drive.google.com/file/d/1CSa5mJw3NJe6NQFPULdK_7_4rvoYWoRJ/view?usp=sharing  " >Using IPv6 in a VPC</a></li>
+						<li><a href="https://drive.google.com/file/d/1zAjXZarpPLv0XnSmB9Zx-tbxDkUgJdJp/view?usp=sharing  " >VPC Flow Logs</a></li>
+						<li><a href="https://drive.google.com/file/d/1Q1jUwNasq7Ct6vT9E5F3_p4W5D1K-0Zr/view?usp=sharing  " >Architecture Patterns - VPC</a></li>
+						<li><a href="https://drive.google.com/file/d/1CJx5slfudU4VhbhqRDKdQvSHDP4_13uh/view?usp=sharing  " >Exam Cram - VPC</a></li>							
+				
+					</ul>
+				</li>
+				
+ 
+ </TD>
+      <TD>
+
+				<li><b>Section-7</b></a>
+					<ul>
+						<li><a href="https://drive.google.com/file/d/1G--3oGYizkOPedmCFKwAhGV7DC8pjzKC/view?usp=sharing" >Section 7: Introduction</a></li>
+						<li><a href="https://drive.google.com/file/d/1GPDm9GkLBIoHv_gF7bReMh-Gnx8Z87oX/view?usp=sharing" >Amazon S3 Overview</a></li>
+						<li><a href="https://drive.google.com/file/d/1zyfog-XwEVWQfeh43_Nne_zyJvvwnw_9/view?usp=sharing" >Amazon S3 Storage Classes</a></li>
+						<li><a href="https://drive.google.com/file/d/1FkJX_lnFph9gC1lZ3zuh6s3-h1dcUF2K/view?usp=sharing" >Create Amazon S3 Bucket</a></li>
+						<li><a href="https://drive.google.com/file/d/1sUSvEZ0xw9tK3JNSANKZ8d05_BHYd9LG/view?usp=sharing" >IAM Policies, Bucket Policies and ACLs</a></li>
+						<li><a href="https://drive.google.com/file/d/1q36Qywc1e3caooerW4L6JGPOQWeyxV9v/view?usp=sharing" >Access Control Lists (ACLs)</a></li>
+						<li><a href="https://drive.google.com/file/d/1y6vyG9GfS-SzxbNVeRBxoJR6V-2I36Tw/view?usp=sharing" >Bucket and User Policy Practice</a></li>
+						<li><a href="https://drive.google.com/file/d/1bTAnPfkBagv1njnYK7dvWcZkHMKloR5B/view?usp=sharing" >S3 Versioning, Replication and Lifecycle Rules</a></li>
+						<li><a href="https://drive.google.com/file/d/1wkxGBv-Nqforb3kZ2c2tm6zSX31blg45/view?usp=sharing" >Versioning and Replication</a></li>
+						<li><a href="https://drive.google.com/file/d/13ShAPKIgXGossLw-XS0iKa7zWZLSxWhX/view?usp=sharing" >Lifecycle Rules</a></li>
+						<li><a href="https://drive.google.com/file/d/1FNt-smpZM8t2Rv2-npN-7sL6tc5JhH7P/view?usp=sharing" >MFA with Amazon S3</a></li>
+						<li><a href="https://drive.google.com/file/d/1MFEYDZhWylZhzbltLLM4CHkApVg2uHEe/view?usp=sharing" >S3 Encryption</a></li>
+						<li><a href="https://drive.google.com/file/d/1sC3CikrEmBsB_jVKMxBWEK11bwIj4dXC/view?usp=sharing" >Enforce Encryption</a></li>
+						<li><a href=" https://drive.google.com/file/d/1pX7GQ_gVUOUVZqZm53MYPptdM2kh-eZ-/view?usp=sharing">S3 Event Notifications</a></li>
+						<li><a href=" https://drive.google.com/file/d/1aFuYylpr79-tATvu-S2FwPtYuqC9Oyql/view?usp=sharing">Presigned URLs</a></li>
+						<li><a href="https://drive.google.com/file/d/1fzAj0NCqg1Q43UY0t6qBAosTO8RtgI1S/view?usp=sharing" >Multipart Upload & Transfer Acceleration</a></li>
+						<li><a href="https://drive.google.com/file/d/1vPh5yzuK8pYS2DrUUKVsB05imjd2t6BQ/view?usp=sharing" >S3 Select and Glacier Select</a></li>
+						<li><a href=" https://drive.google.com/file/d/1vKn9D10dvqNLlnPj2yUBfEjM31XO0ZvB/view?usp=sharing" >Server Access Logging</a></li>
+						<li><a href=" https://drive.google.com/file/d/18lAka6V9HDz5MiYbMTHeWqo4SkNontpD/view?usp=sharing" >S3 Static Website</a></li>
+						<li><a href="https://drive.google.com/file/d/18kRxsxQgox1yqyrV8OeDRi4o_ZL0Whzn/view?usp=sharing" >Cross-Origin Resource Sharing (CORS)</a></li>
+						<li><a href="https://drive.google.com/file/d/1OA_oMt59qgPfdSwLjfxuFvc7dw9ZyipB/view?usp=sharing" >Cross Account Access</a></li>
+						<li><a href="https://drive.google.com/file/d/170H3dtB8Zo-mDAWxSqrXiZXH-gkRAtvD/view?usp=sharing" >Configure Cross Account Access</a></li>
+						<li><a href="https://drive.google.com/file/d/1WfBkA5cZwprRJXZx9Mc5n5EugG8tN2iA/view?usp=sharing" >Architecture Patterns - S3</a></li>
+						<li><a href="https://drive.google.com/file/d/1-ZUw5u1CvOy8481elaeoGFHA83rs6zkp/view?usp=sharing" >Exam Cram - S3</a></li>
+                     </ul>
+			    </li>
+
+				<li><b>Section-8</b></a>
+					<ul>
+						<li><a href="https://drive.google.com/file/d/1bw5ZHvJcNlkMbg_11X_nMxu4-51PoL-4/view?usp=sharing  " >Section 8: Introduction</a></li>
+						<li><a href="https://drive.google.com/file/d/1hc6fbcLgOvMVfBszrLTcMJ5SXsndOoNz/view?usp=sharing  " >DNS and Amazon Route 53</a></li>
+						<li><a href="https://drive.google.com/file/d/1tpoUgHLcFq1RifAWyGKwCDsUWM70Q6vR/view?usp=sharing  " >Register Domain wit Route 53 (Optional)</a></li>
+						<li><a href=" https://drive.google.com/file/d/1eaKiZVj1Rnhloj3yWkYq-NUh6L4X6BZI/view?usp=sharing " >Amazon Route 53 Hosted Zones</a></li>
+						<li><a href="https://drive.google.com/file/d/16QvKipYZQ63K0CFt0rT8E7udQWGPMoGL/view?usp=sharing  " >Route 53 Routing Policies</a></li>
+						<li><a href="https://drive.google.com/file/d/1B8rfRTC_-41Z5Td45nfh7ciOgrfxrxDV/view?usp=sharing  " >Using Route 53 Routing Policies</a></li>
+						<li><a href="https://drive.google.com/file/d/1ZoTCSo11qit8_ZTOcJvQg07PbdgdbGbW/view?usp=sharing  " >Amazon Route 53 Resolver</a></li>
+						<li><a href="https://drive.google.com/file/d/1jJubM-rBZDb4WDaRKPKmjotHznpK8dCy/view?usp=sharing  " >Amazon CloudFront Origins and Distributions</a></li>
+						<li><a href="https://drive.google.com/file/d/1Mmw1nYao8SwFUAPi5EVn_RFt3wKhyaUs/view?usp=sharing  " >Amazon CloudFront Caching and Behaviors</a></li>
+						<li><a href="https://drive.google.com/file/d/1L6v7_nyTpB_TAurHMy7_LMbSI1hjiXAF/view?usp=sharing  " >CloudFront Signed URLs and OAI</a></li>
+						<li><a href="https://drive.google.com/file/d/1UIaZiQ0cKZr8IWU4Su0La3Bc_Ku9vtaW/view?usp=sharing  " >Cache and Behavior Settings</a></li>
+						<li><a href="https://drive.google.com/file/d/1mSNjltWFrslqCDHs3ZYhp-RAvVnM87hI/view?usp=sharing  " >CloudFront SSL/TLS and SNI</a></li>
+						<li><a href="https://drive.google.com/file/d/1dB9LHB8lsbd_A0_XIRuqyCCq21BQrrku/view?usp=sharing  " >Lambda@Edge</a></li>
+						<li><a href="https://drive.google.com/file/d/1Obb6er86UzRfE2dC7tuvtJj5yWAuoMp2/view?usp=sharing  " >AWS Globa Accelerator</a></li>
+						<li><a href=" https://drive.google.com/file/d/1l5hO9P8bPBEOIBmoFA5K9nX99jSiTKsq/view?usp=sharing " >Create a Globa Accelerator</a></li>
+						<li><a href="https://drive.google.com/file/d/1Q0NpP7uC5R_NikBcn3kxdWJiP6TAkP4Q/view?usp=sharing  " >Architecture Patterns - DNS, Caching + Performance</a></li>
+						<li><a href="https://drive.google.com/file/d/1ayNtCeiSZW0T0X7X4HEoRGZeGGsAeiKd/view?usp=sharing  " >Exam Cram - DNS, Caching + Performance</a></li>
+				
+				
+					</ul>
+				</li>
+
+				<li><b>Section-9</b></a>
+					<ul>
+						<li><a href=" https://drive.google.com/file/d/1ma92N7StPXnC2mh2VPpkElAnNUFbiLO1/view?usp=sharing " >Section 9: Introduction</a></li>
+						<li><a href=" https://drive.google.com/file/d/1QeK6MrH_qagmbAI327jFXeiNBAG-huky/view?usp=sharing " >Block vs File vs Object Storage</a></li>
+						<li><a href="https://drive.google.com/file/d/1uhRN1L0t_laGH0-wb-09r8z9NTDmwSGJ/view?usp=sharing  " >Amazon EBS Deployment and Volume Types</a></li>
+						<li><a href="https://drive.google.com/file/d/1TsFDBSVQajW_RgBZae081JTDi6t7EdUv/view?usp=sharing  " >Amazon EBS Copying, Sharing and Encryption</a></li>
+						<li><a href=" https://drive.google.com/file/d/1lkW3N4g4GW0eW_9mSUKqzYLkHPOf1Spl/view?usp=sharing " >Amazon EBS Snapshots and DLM</a></li>
+						<li><a href="https://drive.google.com/file/d/1y1wGQwJn2D58RNRwbJxTB1HQwFjOO7CT/view?usp=sharing  " >EC2 Instance Store Volumes</a></li>
+						<li><a href=" https://drive.google.com/file/d/1SMY_76lipymduFxJTfAkMm4qr7w5vVy_/view?usp=sharing " >Creating and Attaching EBS Volumes</a></li>
+						<li><a href="https://drive.google.com/file/d/1bbuj1P-Dm1rGsKZzLKv0f3QEvpHdMpVU/view?usp=sharing  " >Using Amazon Machine Images (AMIs)</a></li>
+						<li><a href="https://drive.google.com/file/d/172PGQBsh1OkNyUFUuxq9ecwD3JU8l8Po/view?usp=sharing  " >EC2 Image Builder</a></li>
+						<li><a href=" https://drive.google.com/file/d/1ffUj5lgMrdpiVUFaUJqRTv_nmEnTTEAR/view?usp=sharing " >Migrate EBS Volume between AZs</a></li>
+						<li><a href=" https://drive.google.com/file/d/1BkJeP7qP51KSBapOraeJjklVzPp34kfw/view?usp=sharing " >Working wit EBS Snapshots and DLM</a></li>
+						<li><a href="https://drive.google.com/file/d/1Q8Jmk44ZHEGMLYGJVvhn5GbfiSOGvoIf/view?usp=sharing  " >Using RAID wit EBS</a></li>
+						<li><a href=" https://drive.google.com/file/d/1JLk08IQGqsU9Zm59aBssIY-ZnezOr-ME/view?usp=sharing " >Amazon Elastic File System (EFS)</a></li>
+						<li><a href=" https://drive.google.com/file/d/16TbP5EwnCQs4ffSpWm5qoJmQ6fwF8dEN/view?usp=sharing " > Create EFS Filesystem</a></li>
+						<li><a href="https://drive.google.com/file/d/1eghcGVANCMDrDhpwz0aehU0MKAvjN2x-/view?usp=sharing  " >Amazon FSx</a></li>
+						<li><a href="https://drive.google.com/file/d/14VIEdGobQWgtiMnuto0mqAqeIXSumZgU/view?usp=sharing  " >AWS Storage Gateway</a></li>
+						<li><a href=" https://drive.google.com/file/d/1BscILaRzaHJFjI6Ngdz_P_Ir1GXQTVpe/view?usp=sharing " > AWS Backup</a></li>
+						<li><a href="https://drive.google.com/file/d/1Yr1Yzq-mecw2KWDsAUBNvd6fB7pcUFDb/view?usp=sharing  " >Architecture Patterns - Block and File Storage</a></li>
+						<li><a href=" https://drive.google.com/file/d/1t_6IKWZC_F5dU1aprazOOGTagfHE3DoZ/view?usp=sharing " >Exam Cram - Block and File Storage</a></li>
+										
+				
+					</ul>
+				</li>
+				
+				<li><b>Section-10</b></a>
+					<ul>
+						<li><a href="https://drive.google.com/file/d/1jefuPLMMsaOQMi16cBQzfABKSVDk5oFK/view?usp=sharing  " >Section 10: Introduction</a></li>
+						<li><a href=" https://drive.google.com/file/d/1IeepbfTy37YgZ3W430P4QAr8cXw_Cb1t/view?usp=sharing " >Docker Containers and Microservices</a></li>
+						<li><a href="https://drive.google.com/file/d/1-4LpCqLow6V2fvwGPhJYL_PESTlblVWr/view?usp=sharing  " >Amazon Elastic Container Service (ECS)</a></li>
+						<li><a href="https://drive.google.com/file/d/1Pl2vpc21xFkXST7xZ9JsspTJ6JQWpyjL/view?usp=sharing  " >Amazon ECS Launc Types</a></li>
+						<li><a href="https://drive.google.com/file/d/1tDyPLKOQuYmfUt9QCK9HRXOXXygM8a3j/view?usp=sharing  " >Launc Task on AWS Fargate</a></li>
+						<li><a href=" https://drive.google.com/file/d/1CVEIOquSJVFms1zo7WA2oyMYvJ9HENYs/view?usp=sharing " >Amazon ECS and IAM Roles</a></li>
+						<li><a href="https://drive.google.com/file/d/104hsym4J22bGaHF9hKYvzI3VlpoExTbQ/view?usp=sharing  " >Scaling Amazon ECS</a></li>
+						<li><a href="https://drive.google.com/file/d/1Bg5ukTUjtoMFZoNpxDG84-4qpa7kmXJ_/view?usp=sharing  " >Amazon ECS wit ALB</a></li>
+						<li><a href="https://drive.google.com/file/d/1dZzYa80xBUx1oZ4L41ISWJTPh-29-f5w/view?usp=sharing  " >Deploy ECS Cluster (EC2 Launc Type)</a></li>
+						<li><a href="https://drive.google.com/file/d/1RKkncGdMPxShUYHW5Ufd8WZH_VLwuWwC/view?usp=sharing  " >Use ALB wit Fargate Cluster</a></li>
+						<li><a href="https://drive.google.com/file/d/1IUfAKaogLmqXAvg1-MRhrcDwGvf2meRK/view?usp=sharing  " >Amazon Elastic Kubernetes Service (EKS)</a></li>
+						<li><a href="https://drive.google.com/file/d/1orR3Z_SRM0qm-m1JDmCly4q4-Dc9ByCE/view?usp=sharing  " >Architecture Patterns - ECS</a></li>
+						<li><a href="https://drive.google.com/file/d/1AxdMOImUL61Qwd7pZB1sUkQeqiQptQxn/view?usp=sharing  " >Exam Cram - ECS</a></li>
+				
+				
+					</ul>
+				</li>				
+
+				<li><b>Section-11</b></a>
+					<ul>
+						<li><a href="https://drive.google.com/file/d/17T7C5eOc84FMkkJTjw1A46LTHp0b5kk0/view?usp=sharing  " >Section 11: Introduction</a></li>
+						<li><a href="https://drive.google.com/file/d/1WzCLFqahOSVtI8b0iZC8uDHBuBMUiV74/view?usp=sharing  " >Serverless Services and Event-Driven Architecture</a></li>
+						<li><a href="https://drive.google.com/file/d/1UEjTuPUhDzBZtYjGDYEl5KnpjaEX0dqp/view?usp=sharing  " >AWS Lambda</a></li>
+						<li><a href="https://drive.google.com/file/d/1VYQf1A_NSDC4oLfv5C9xhk8pEUfZoyoQ/view?usp=sharing  " >Create Simple Lambda Function</a></li>
+						<li><a href="https://drive.google.com/file/d/1PSEdhJYyvmxVaFJciJ6MIpPOopKTPhRw/view?usp=sharing  " >Application Integration Services Overview</a></li>
+						<li><a href="https://drive.google.com/file/d/1uDS7NaGWJI6XZiOR4hJz_3hjuwgs6yB8/view?usp=sharing  " >Amazon SQS</a></li>
+						<li><a href="https://drive.google.com/file/d/11JZnniwNejQJ9o67XSXpEpENoN2u4rth/view?usp=sharing  " >Amazon SNS</a></li>
+						<li><a href="https://drive.google.com/file/d/1rxOO2ZHW-iiPB7HFQVXDMuM_Q6NIPk1z/view?usp=sharing  " >Simple Event-Driven App</a></li>
+						<li><a href="https://drive.google.com/file/d/1nzNBSTydD9-cFZ1sCs5-OSNnZ_Auo9Yl/view?usp=sharing  " >AWS Step Functions</a></li>
+						<li><a href="https://drive.google.com/file/d/1sWJIezWfaKX5XHxMbGHbX_3fZFF1U1X5/view?usp=sharing  " >Create a State Machine</a></li>
+						<li><a href="https://drive.google.com/file/d/1Dfy9JdKTwAabxU2I1qsSsdWQTsZXyVOC/view?usp=sharing  " >Amazon EventBridge</a></li>
+						<li><a href="https://drive.google.com/file/d/19yxo1QBtwAPWdFYmfksaNiFEt0oDFUwC/view?usp=sharing  " >Create Event Bus and Rule</a></li>
+						<li><a href="https://drive.google.com/file/d/1a0LDUY7G9-DzY8KfrKw8MJOJS5g7I9a4/view?usp=sharing  " >Amazon API Gateway</a></li>
+						<li><a href="https://drive.google.com/file/d/1FzD10lLrG_FuM1IZaaDL0934BLoB-c28/view?usp=sharing  " >Simple REST API</a></li>
+						<li><a href="https://drive.google.com/file/d/1wb-sHTcwk-Z7eUZrf_Pwgw2TXOxRp4su/view?usp=sharing  " >Web App with HTTP API</a></li>
+						<li><a href="https://drive.google.com/file/d/1ZnLm9kgf0T4E6udm2h_q8sGAnTESsIlJ/view?usp=sharing  " >Architecture Patterns - Serverless</a></li>
+						<li><a href="https://drive.google.com/file/d/1mKV8qAvgYNW5_GttKEhmIBa8V_JQGD6c/view?usp=sharing  " >Exam Cram - Serverless</a></li>
+				
+				
+					</ul>
+				</li>		
+
+
+ </TD>
+      <TD>				
+						
+				
+				<li><b>Section-12</b></a>
+					<ul>
+						<li><a href="https://drive.google.com/file/d/1E8EHUfI3ff3VsZJLwbRQKfj7uyxMX1Qu/view?usp=sharing  " >Section 12: Introduction</a></li>
+						<li><a href=" https://drive.google.com/file/d/1NC88xoLixcEtcUThZUQqIZzso3QClyyl/view?usp=sharing " >Types of Database</a></li>
+						<li><a href="https://drive.google.com/file/d/1yaNoiKo-6lJuBE-eShF-Ctsfx4KzZBPc/view?usp=sharing  " >Amazon Relational Database Service (RDS)</a></li>
+						<li><a href="https://drive.google.com/file/d/1sIYNA9BFf07XKG_COYwL1ep3p6xhKdF9/view?usp=sharing  " >Amazon RDS Backup and Recovery</a></li>
+						<li><a href="https://drive.google.com/file/d/1jBmDlcCQOlOPMzMyp-4KqgeTsRPKyRul/view?usp=sharing  " >Create Amazon RDS Database</a></li>
+						<li><a href="https://drive.google.com/file/d/1ObH1sGPA6DuVtjzGpjNlAfRFb7ntkwuF/view?usp=sharing  " >Read Replicas and Multi-AZ</a></li>
+						<li><a href="https://drive.google.com/file/d/1SF8VGZ-eMvPGlXbVXUUBc4ap3s3CPQ_m/view?usp=sharing  " >Amazon RDS Security</a></li>
+						<li><a href="https://drive.google.com/file/d/1F-3hatp5EduxHchDnxdJ0TDhhe-2wrrg/view?usp=sharing  " >Create Encrypted Copy of RDS Database</a></li>
+						<li><a href="https://drive.google.com/file/d/1Y1a2egT4_psTPpR2-0-Wqp-B99bGcX78/view?usp=sharing  " >Amazon Aurora</a></li>
+						<li><a href="https://drive.google.com/file/d/1XUDZrKWEilXFlwe4RtmS48ptwllCnKc5/view?usp=sharing  " >Amazon Aurora Deployment Options</a></li>
+						<li><a href="https://drive.google.com/file/d/1meHvBlwOcc15lHFeO3XKiIcD5-VZp8NP/view?usp=sharing  " >Amazon RDS Anti-Patterns and Alternatives</a></li>
+						<li><a href="https://drive.google.com/file/d/1a-fNm0Un-2ast3TDCGM3dzcG1l7JBLzj/view?usp=sharing  " >Amazon ElastiCache</a></li>
+						<li><a href="https://drive.google.com/file/d/1-YOd_g33bzV-rNzGDTRsptP9YvtuMCo1/view?usp=sharing  " >Scaling ElastiCache</a></li>
+						<li><a href="https://drive.google.com/file/d/1nvoq4L0QTFcR6e_IVfIBPqEDcOyRrv89/view?usp=sharing  " >Create ElastiCache Cluster</a></li>
+						<li><a href="https://drive.google.com/file/d/1zHXmbsSAnoEz7LELwVoKtWEKnZXwWerU/view?usp=sharing  " >Amazon DynamoDB</a></li>
+						<li><a href="https://drive.google.com/file/d/1UiuncYuAL6bltalyzpNNYVDFLTotgObx/view?usp=sharing  " >Create DynamoDB Table</a></li>
+						<li><a href="https://drive.google.com/file/d/1smLpdzgJexRkKNJUZciyZuRKcpzw4ask/view?usp=sharing  " >DynamoDB Streams</a></li>
+						<li><a href="https://drive.google.com/file/d/1jcAWwE9Z4D4kLhGxBQCz7SAIEQvZ9uXM/view?usp=sharing  " >DynamoDB Accelerator (DAX)</a></li>
+						<li><a href="https://drive.google.com/file/d/15kLWu3aPa1mR4V0FkkaranDAUSe-t22Z/view?usp=sharing  " >DynamoDB Global Tables</a></li>
+						<li><a href="https://drive.google.com/file/d/1xzcp8oafqaW2gN5HSZrx_eARUXGaBK-D/view?usp=sharing  " >Create DynamoDB Global Table</a></li>
+						<li><a href="https://drive.google.com/file/d/1sxfGQXBuuAo4t9-0mydHq5pNusWn8Kjl/view?usp=sharing  " >Amazon RedShift</a></li>
+						<li><a href="https://drive.google.com/file/d/1-8tI-x5n22GpTB8jgF8hiMkxXh9sjmDk/view?usp=sharing " >Amazon Elastic Map Reduce (EMR)</a></li>
+						<li><a href="https://drive.google.com/file/d/1B4WDbq3eoaKjJoDmql5FijhOqRoVBQvY/view?usp=sharing  " >Amazon Kinesis Core Knowledge</a></li>
+						<li><a href="https://drive.google.com/file/d/1y-6Yn-yBtQck8jfFfS9_LIHPTXjn7IxK/view?usp=sharing  " >Amazon Athena and AWS Glue</a></li>
+						<li><a href="https://drive.google.com/file/d/1NsdMKWYli2VNJWTBghYbQQ8jlvfw-TwU/view?usp=sharing  " >Query S3 ALB Access Logs with Athena</a></li>
+						<li><a href="https://drive.google.com/file/d/15ag0SYgHrFpQ17zm9ZQ6eNQOqI4gId0M/view?usp=sharing  " >Architecture Patterns - Databases + Analytics</a></li>
+						<li><a href="https://drive.google.com/file/d/17ah0rxiBnfM3L174H0k-dI7syfCOoQm0/view?usp=sharing  " >Exam Cram - Databases + Analytics</a></li>
+
+				
+				
+					</ul>
+				</li>
+
+
+				<li><b>Section-13</b></a>
+					<ul>
+							<li><a href=" https://drive.google.com/file/d/1SWyjE7-IHPVJCU5wVyl1JBTHrpodsOMo/view?usp=sharing " >Section 13: Introduction</a></li>
+							<li><a href="https://drive.google.com/file/d/11BHzWsYwRc4SpQLvY7EJBYeEQNy6HPPe/view?usp=sharing  " >AWS CloudFormation</a></li>
+							<li><a href="https://drive.google.com/file/d/18yynX9Y9aZCzo5zxAdH3XHfs-qW7-Fzu/view?usp=sharing  " >Deploy Stack and Change Set</a></li>
+							<li><a href="https://drive.google.com/file/d/14Mi78lIm_woYt1KsGScmi0fTWRWnKgmu/view?usp=sharing  " >Complex CloudFormation Template</a></li>
+							<li><a href="https://drive.google.com/file/d/1hnJODS3F6CBimBhoI_FeZcMCPw8HFVh3/view?usp=sharing  " >AWS Elastic Beanstalk</a></li>
+							<li><a href="https://drive.google.com/file/d/1ByfK8YMW6mYNy_jUurw3qaiCzPBMbKgI/view?usp=sharing  " >Deploy Elastic Beanstalk Web Server and Worker</a></li>
+							<li><a href="https://drive.google.com/file/d/1ClcbRGBYsHkXubQdJWYSXbrO0UDPfrVb/view?usp=sharing  " >SSM Parameter Store</a></li>
+							<li><a href="https://drive.google.com/file/d/16UYGciWVsmn4rxLsYvPEAF71qEgM7mQy/view?usp=sharing  " >AWS Config</a></li>
+							<li><a href="https://drive.google.com/file/d/1o_fzj7GhHtsPD4VaU6x4NafUzMwd2wl8/view?usp=sharing  " >AWS Config Rule with Remediation</a></li>
+							<li><a href="https://drive.google.com/file/d/1zdQleTff_Amlr8xQDDT0SMBBRXNOdVot/view?usp=sharing  " >AWS Secrets Manager</a></li>
+							<li><a href="https://drive.google.com/file/d/19RJU8GJifPwCF5jbhWfQvfArSD7clswN/view?usp=sharing  " >AWS OpsWorks</a></li>
+							<li><a href="https://drive.google.com/file/d/1hGZ8iY4RT9p4R2kzFzN_bBJkP3b-iUoP/view?usp=sharing  " >AWS Resource Access Manager</a></li>
+							<li><a href="https://drive.google.com/file/d/1plc9gAOuHgpM2N0SL2KGoMUEh19aXU-1/view?usp=sharing  " >Share a Subnet Across Accounts</a></li>
+							<li><a href="https://drive.google.com/file/d/1IS0tI0Fpf1t8feoCHRe1Iokljip14pJp/view?usp=sharing  " >Architecture Patterns - Deployment + Management</a></li>
+							<li><a href="https://drive.google.com/file/d/1pKI3meTcR9O3WVSqnnAhvmDDUtn71dZW/view?usp=sharing  " >Exam Cram - Deployment + Management</a></li>
+				
+				
+					</ul>
+				</li>
+				
+				<li><b>Section-14</b></a>
+					<ul>
+						<li><a href="https://drive.google.com/file/d/1rfz9D_TRAU6qCPKkyPDrsMafhZ7eyN-O/view?usp=sharing  " >Section 14: Introduction</a></li>
+						<li><a href=" https://drive.google.com/file/d/1u9Qa_jyhIFHI5eor7DWFVtq-9vJJVIZb/view?usp=sharing " >Amazon CloudWatch Overview</a></li>
+						<li><a href="https://drive.google.com/file/d/1J0t5QaxaRLW2Q_Dj14A7s2Hgmv-dI172/view?usp=sharing  " >Create a Custom Metric</a></li>
+						<li><a href="https://drive.google.com/file/d/1nrC_pNxlHo6vQAefLr3zaJsBDPSpRqUB/view?usp=sharing  " >Create a CloudWatch Alarm</a></li>
+						<li><a href="https://drive.google.com/file/d/11YMLXOuMdOJJXXOR814WGcd4a3WS3HW8/view?usp=sharing  " >Amazon CloudWatch Logs</a></li>
+						<li><a href="https://drive.google.com/file/d/15C_hP7w-75HBejhrc1_eXhqMonZ1gwi_/view?usp=sharing  " >Review CloudWatch Logs</a></li>
+						<li><a href="https://drive.google.com/file/d/1cHFu_dUQmC28VutQ7X_YufD9sa3_ilUN/view?usp=sharing  " >The Unified CloudWatch Agent</a></li>
+						<li><a href="https://drive.google.com/file/d/1PpT3wMxIQGZkmjNn4VwxJHhGPg23Xagk/view?usp=sharing  " >AWS CloudTrail</a></li>
+						<li><a href="https://drive.google.com/file/d/18Kenj46YfpdVNSw9D--1SS10MXIXSywv/view?usp=sharing  " >Create a CloudTrail Trail</a></li>
+						<li><a href="https://drive.google.com/file/d/1eTEYrJO96eA9f8l-HZZh4g1YhSo9zAv3/view?usp=sharing  " >Amazon EventBridge (Refresher)</a></li>
+						<li><a href="https://drive.google.com/file/d/1Rpxjob9frDYT1dlvRJ8QBqAhza7uitGo/view?usp=sharing  " >Create EventBridge rule for CloudTrail API calls</a></li>
+						<li><a href="https://drive.google.com/file/d/1VDDvUGC8SPc3OIhw7EgZU0AdQiIKUhmd/view?usp=sharing  " >Architecture Patterns - Monitoring + Logging + Auditing</a></li>
+						<li><a href="https://drive.google.com/file/d/18eNa3rlPLqycDeW9kMaWZqT1IsGNup7h/view?usp=sharing  " >Exam Cram - Monitoring + Logging + Auditing</a></li>
+				
+				
+					</ul>
+				</li>
+
+
+				<li><b>Section-15</b></a>
+					<ul>
+						<li><a href=" https://drive.google.com/file/d/1PS-1u0emoBA2zeOxj5x6EylAdYDaPE3r/view?usp=sharing " >Section 15: Introduction</a></li>
+						<li><a href=" https://drive.google.com/file/d/1FhUV-2i4N67Ft8vPBYMgeml1F4DTFwyn/view?usp=sharing " >AWS Directory Service</a></li>
+						<li><a href="https://drive.google.com/file/d/1VDYWNFnHNo_hTpQVW85xcd3GBnUJ4sZh/view?usp=sharing  " >Identity Federation</a></li>
+						<li><a href="https://drive.google.com/file/d/12awnEMGbCwBkL0Jts1Ls8vz0h1YuS9CR/view?usp=sharing  " >AWS Single Sign-on (SSO)</a></li>
+						<li><a href="https://drive.google.com/file/d/18JxOIFXL1GelJL6xb8kfqFvrPly-caoT/view?usp=sharing  " >Amazon Cognito</a></li>
+						<li><a href="https://drive.google.com/file/d/17zklvLU0XO3jbc4W3Jut-JaTtwNSJoJY/view?usp=sharing  " >Encryption Primer</a></li>
+						<li><a href="https://drive.google.com/file/d/18wiManXZYE7obn1IrXkQuWIuqM_0Y-aC/view?usp=sharing  " >AWS Key Management Service (KMS)</a></li>
+						<li><a href="https://drive.google.com/file/d/1f4NifhJX7aDM7Wwhz1PWkuIcW_1378rT/view?usp=sharing  " >Create Encryption Key</a></li>
+						<li><a href=" https://drive.google.com/file/d/1Jn-BDIyvbtPAtditQxcdlDpZXW4uX2Os/view?usp=sharing " >AWS CloudHSM</a></li>
+						<li><a href="https://drive.google.com/file/d/1CNfUHUgJjU1KD6gmd1w6LL9nW3vHRtDF/view?usp=sharing  " >AWS Certificate Manager</a></li>
+						<li><a href="https://drive.google.com/file/d/11N2naTXkj6s0xJOdz_ugVAXCdoSwagXO/view?usp=sharing  " >SSL/TLS Certificate in ACM</a></li>
+						<li><a href="https://drive.google.com/file/d/1waOb5jfqFQF4mL0PuLzMuPFQra_Xn08j/view?usp=sharing  " >AWS Web Application Firewall (WAF)</a></li>
+						<li><a href="https://drive.google.com/file/d/1ukPrNMCuCicMJVkt0kYNSTjSRzRsclQ0/view?usp=sharing  " >AWS Shield</a></li>
+						<li><a href="https://drive.google.com/file/d/1zSy8xvvg4O3unZCP4PMvj9yjA_DWeJVN/view?usp=sharing  " >Defense In-Depth</a></li>
+						<li><a href=" https://drive.google.com/file/d/1OJCFbyTD7-nDIp4SYS2UwiCn1AXTKGTN/view?usp=sharing " >Architecture Patterns - Security</a></li>
+						<li><a href="https://drive.google.com/file/d/1lXREky1iBYB8-1G-_dMtDPAuYrwoy7e7/view?usp=sharing  " >Exam Cram - Security</a></li>
+				
+				
+					</ul>
+				</li>
+
+				<li><b>Section-16</b></a>
+					<ul>
+						<li><a href="https://drive.google.com/file/d/1cXh8bJ_3AkeUb-WiJ8wv9aWZaC3zV_0O/view?usp=sharing  " >Section 16: Introduction</a></li>
+						<li><a href="https://drive.google.com/file/d/1C9NSpFEEXrAL3YfduGBo-fpiXOawKl4f/view?usp=sharing  " >AWS Migration Tools Overview</a></li>
+						<li><a href="https://drive.google.com/file/d/1372ouJvAlt29lAWgFAz9BT9UKM4NqbAq/view?usp=sharing  " >AWS Application Discovery Service</a></li>
+						<li><a href=" https://drive.google.com/file/d/1GWJUd-Zwf4RSMKDFhdPcSqt1VlnrajjV/view?usp=sharing " >AWS Database Migration Service (DMS)</a></li>
+						<li><a href="https://drive.google.com/file/d/1VaBRgXxrMMLpo6kO443Xd0chIt84i4GN/view?usp=sharing  " >AWS Server Migration Service (SMS)</a></li>
+						<li><a href="https://drive.google.com/file/d/1lyIQFowXQGG4peT1a6wqt0wJ0W2tFpCc/view?usp=sharing  " >AWS DataSync</a></li>
+						<li><a href=" https://drive.google.com/file/d/1nCjTc4WsfbXe4DOont3eSS2kiPF6-UBX/view?usp=sharing " >AWS Snow Family</a></li>
+						<li><a href="https://drive.google.com/file/d/1W2HV7159tJyu8f-podZ0YYmJ-IPU0S39/view?usp=sharing  " >Architecture Patterns - Migration + Transfer</a></li>
+						<li><a href="https://drive.google.com/file/d/1xFOYCe55_P4CvwGls_lhN0GP8KtL7UsH/view?usp=sharing  " >Exam Cram - Migration + Transfer</a></li>
+						<li><a href="https://drive.google.com/file/d/15oFQ7tQYNW-s7ZzUaAPLlJ2Ed-pKTZhn/view?usp=sharing " >IAM Identity provider and Federation</a></li>
+				
+				
+					</ul>
+				</li>
+				
+				
+				
+				
+</TD>				
+				
+</body>
+</html>
+

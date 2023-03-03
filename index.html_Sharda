@@ -1,0 +1,11 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+<h6 align="right"><a href="images/sharda.jpg ">जय सरस्वती माता</a></h5>
+<img src = "images/s.jpg" alt= "Image" height="550" width="370" />
+<marquee behavior="scroll" direction="right">।। मां सरस्वती ।।</marquee>
+</body>
+</html>
