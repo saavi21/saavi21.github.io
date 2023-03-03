@@ -1,0 +1,158 @@
+<TABLE BORDER="1"    WIDTH="100%"   CELLPADDING="0" CELLSPACING="0" BORDERCOLOR=lightGREY>
+ <TH COLSPAN="3"<BR><H4 style="background-color:rgb(200, 200, 200)"><a href="https://kubernetes.io/docs/"> </a></H4> </TH>
+    
+    <TR ALIGN="LEFT" <p style="font-size:17px">
+      <TD>
+
+	        
+	        <DT><A HREF="https://kubernetes.io/docs/reference/kubectl/cheatsheet/">CHEATSHEET</a>
+	        <DT> -------------------------------------------------<A HREF="https://kubernetes.io/docs/tasks/administer-cluster/"<p style="color:blue;">Administer a Cluster</a>
+			<DT><A HREF="https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/#installing-kubeadm-kubelet-and-kubectl"> Install kubeadm, kubeclt, kubelet</a>
+			<DT><A HREF="https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-upgrade/#upgrading-control-plane-nodes">Upgrade kubeadm clusters</a>
+			<DT><A HREF="https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/">Create Single cluster + kubeadm </a>
+			<DT><A HREF="https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/#backing-up-an-etcd-cluster">ETCD</a>
+			<DT><A HREF="https://kubernetes.io/docs/tasks/access-application-cluster/configure-access-multiple-clusters/#define-clusters-users-and-contexts">Accessing multiple clusters & <b>kubeconfig</b> ~ contexts</a>
+			<DT><A HREF="https://kubernetes.io/docs/tasks/administer-cluster/safely-drain-node/#use-kubectl-drain-to-remove-a-node-from-service">Drain/uncordon</a>
+			<DT><A HREF="https://v1-21.docs.kubernetes.io/docs/tasks/extend-kubernetes/configure-multiple-schedulers/#define-a-kubernetes-deployment-for-the-scheduler">Configure Multiple Schedulers</a>
+			<DT><A HREF="https://kubernetes.io/docs/concepts/cluster-administration/logging/#sidecar-container-with-a-logging-agent">sidecar container with logging agent</a>
+			
+			<DT> -------------------------------------------------<A HREF="https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-certs/"<p style="color:blue;">Certificate Management</a>
+			<DT><A HREF="https://kubernetes.io/docs/reference/access-authn-authz/certificate-signing-requests/#normal-user">CSR + normal-user</a>
+			<DT><A HREF="https://kubernetes.io/docs/tasks/tls/managing-tls-in-a-cluster/#create-a-certificatesigningrequest-object-to-send-to-the-kubernetes-api">CSR + server</a>
+			<DT><A HREF="https://kubernetes.io/docs/tasks/administer-cluster/certificates/#openssl">openssl + certificate</a>
+            <DT><A HREF="https://kubernetes.io/docs/setup/best-practices/certificates/">Certificates paths and requirements</a>
+			
+			
+            <DT> -------------------------------------------------<A HREF="https://kubernetes.io/docs/tasks/inject-data-application/"<p style="color:blue;">Inject Data Into Apps.</a>
+			<DT><A HREF="https://kubernetes.io/docs/tasks/inject-data-application/define-command-argument-container/#define-a-command-and-arguments-when-you-create-a-pod"><b>command & args</b></a>
+			<DT><A HREF=https://kubernetes.io/docs/tasks/inject-data-application/define-environment-variable-container/#define-an-environment-variable-for-a-container"><b>env & value</b></a>
+
+            <DT><A HREF="https://kubernetes.io/docs/tasks/configure-pod-container/configure-pod-configmap/#create-configmaps-from-literal-values"><b>configMap :</b> create configmap</a>
+			 <DT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp;<A HREF="https://kubernetes.io/docs/tasks/configure-pod-container/configure-pod-configmap/#define-a-container-environment-variable-with-data-from-a-single-configmap">env + valueFrom + cm - single key</a>
+			<DT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp;<A HREF="https://kubernetes.io/docs/tasks/configure-pod-container/configure-pod-configmap/#configure-all-key-value-pairs-in-a-configmap-as-container-environment-variables">env + envFrom + cm - all keys</A>			
+            <DT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A HREF="https://kubernetes.io/docs/tasks/configure-pod-container/configure-pod-configmap/#add-configmap-data-to-a-specific-path-in-the-volume"><b>volumeMounts</b> - single-key in pod CM</A>
+            <DT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <A HREF="https://kubernetes.io/docs/tasks/configure-pod-container/configure-pod-configmap/#populate-a-volume-with-data-stored-in-a-configmap"> - confmap as volume in pod</A>
+            
+           
+           	<DT><A HREF="https://kubernetes.io/docs/tasks/configure-pod-container/security-context/#set-the-security-context-for-a-pod" ><b>securityContext:</b> pod level runAs </A> 
+            <DT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp;<A HREF="https://kubernetes.io/docs/tasks/configure-pod-container/security-context/#set-the-security-context-for-a-container" >container level runAs</A>
+            <DT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp;<A HREF="https://kubernetes.io/docs/tasks/configure-pod-container/security-context/#set-capabilities-for-a-container">container level add <b>capabilities</b>: SYS_TIME</A>
+			
+	       
+			<DT> -------------------------------------------------<A HREF="https://kubernetes.io/docs/concepts/configuration/secret/"<p style="color:blue;">SECRET</a>
+			<DT><A HREF="https://kubernetes.io/docs/tasks/inject-data-application/distribute-credentials-secure/#define-container-environment-variables-using-secret-data" ><b>secret:</b> env + valueFrom + secret - single key</a>
+			<DT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp;<A HREF="https://kubernetes.io/docs/tasks/inject-data-application/distribute-credentials-secure/#configure-all-key-value-pairs-in-a-secret-as-container-environment-variables">env + envFrom + secret - all keys</a>
+			<DT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A HREF="https://kubernetes.io/docs/tasks/inject-data-application/distribute-credentials-secure/#create-a-pod-that-has-access-to-the-secret-data-through-a-volume" ><b>volumeMounts</b> - secret as Volume in pod</a>
+          
+			
+			<DT> -------------------------------------------------<A HREF="https://kubernetes.io/docs/concepts/services-networking/service/"<p style="color:blue;">SERVICES</a>
+			<DT><A HREF="https://kubernetes.io/docs/concepts/services-networking/service/#publishing-services-service-types">Services: ServiceTypes</a>
+			<DT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp;<A HREF="https://v1-22.docs.kubernetes.io/docs/concepts/services-networking/service/#multi-port-services"> Multi-port</a>
+            <DT><A HREF="https://kubernetes.io/docs/concepts/services-networking/connect-applications-service/#creating-a-service" >Services Examples + TLS secret example</a>
+
+            
+            <DT><A HREF="https://kubernetes.io/docs/concepts/containers/images/#using-a-private-registry">Images</a>
+			<DT><A HREF="https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/#create-a-secret-by-providing-credentials-on-the-command-line">Create secret to pull Image from a Private Registry</a>
+			 <DT><A HREF="https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/#create-a-pod-that-uses-your-secret">image: configure imagePullSecrets private repository</A>			
+			
+			
+			
+	 </TD>
+	 <TD>
+	 
+	        <DT> -------------------------------------------------<A HREF="https://kubernetes.io/docs/tasks/configure-pod-container/"<p style="color:blue;">Pods & Containers</a>
+			
+			<DT><A HREF="https://kubernetes.io/docs/tasks/configure-pod-container/static-pod/#configuration-files" ><b>Pod:</b> StaticPods</a>	
+			<DT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<A HREF="https://kubernetes.io/docs/concepts/workloads/pods/init-containers/#init-containers-in-use"><b>initContainer</b>: sample usage</a>
+			<DT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp;<A HREF="https://kubernetes.io/docs/tasks/configure-pod-container/configure-pod-initialization/#create-a-pod-that-has-an-init-container">mount as volume</a>
+			<DT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<A HREF="https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/#define-a-liveness-command" ><b>livenessProbe</b>: pod config command</A>
+            <DT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp;<A HREF="https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/#define-a-liveness-http-request" >pod config httpGet</A>
+            <DT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<A HREF="https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/#define-readiness-probes"><b>readinessProbe</b>:exec</A>
+			<DT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<A HREF="https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/">Liveness + Readiness + Startup Probes</a>
+            <DT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<A HREF="https://kubernetes.io/docs/tasks/configure-pod-container/share-process-namespace/#configure-a-pod" >namespaceSharing: pod config</A>
+			<DT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<A HREF="https://kubernetes.io/docs/concepts/workloads/pods/pod-overview/#pod-templates">busybox</a>
+			
+			<DT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<A HREF="https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/">Labels and Selectors</a>
+			<DT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<A HREF="https://kubernetes.io/docs/concepts/policy/pod-security-policy/#privileged">Security Policies</a>	
+	        <DT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<A HREF="https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#step-two-add-a-nodeselector-field-to-your-pod-configuration"><b>Assigning Pods to Nodes</b></a>
+			<DT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp;<A HREF="https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#nodename">nodeName</a>
+			<DT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp;<A HREF="https://kubernetes.io/docs/tasks/configure-pod-container/assign-pods-nodes/#create-a-pod-that-gets-scheduled-to-your-chosen-node">nodeSelector</a>
+			<DT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp;<A HREF="https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#affinity-and-anti-affinity">affinity + AntiAffinity  - (node, pod)</a>
+						
+            <DT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<A HREF="https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/#concepts">Taints + Tolerations</a>
+			<DT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<A HREF="https://kubernetes.io/docs/concepts/services-networking/connect-applications-service/#exposing-pods-to-the-cluster">Exposing pods to the cluster</a>
+			<DT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<A HREF="https://kubernetes.io/docs/tasks/administer-cluster/manage-resources/memory-default-namespace/"><b>Resources:</b> Requests and Limits for <b>namespace </b></a>
+			<DT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp;<A HREF=
+			"https://kubernetes.io/docs/tasks/configure-pod-container/assign-memory-resource/#specify-a-memory-request-and-a-memory-limit">Memory</a>
+			<DT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp;<A HREF=
+			"https://kubernetes.io/docs/tasks/configure-pod-container/assign-cpu-resource/#specify-a-cpu-request-and-a-cpu-limit">CPU</a>
+			<DT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<A HREF="https://kubernetes.io/docs/concepts/scheduling-eviction/pod-priority-preemption/#pod-priority">priority & preemption</a>
+			<DT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<A HREF="https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account/">Service Accounts</a>
+            
+			
+			<DT> -------------------------------------------------<A HREF="https://kubernetes.io/docs/concepts/workloads/controllers/"<p style="color:blue;">Controllers</a>
+			<DT><A HREF="https://kubernetes.io/docs/concepts/workloads/controllers/deployment/#creating-a-deployment"><b>Controller: </b>Deployment: update</a>
+            <DT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp;<A HREF="https://kubernetes.io/docs/concepts/workloads/controllers/replicationcontroller/#running-an-example-replicationcontroller">ReplicationController
+			</a>
+			<DT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp;<A HREF="https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/#example">ReplicaSet
+			</a>
+			<DT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp;<A HREF="https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/#writing-a-daemonset-spec">DaemonSet</a>
+			<DT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp;<A HREF="https://kubernetes.io/docs/concepts/workloads/controllers/job/#running-an-example-job">Jobs</a>
+			<DT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp;<A HREF="https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs/#example">CronJobs</a>
+            <DT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp;<A HREF="https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/#components">statefulset</a>
+          
+		 
+
+	  </TD> 
+ <TD>
+ 			<DT> -------------------------------------------------<A HREF="https://kubernetes.io/docs/reference/access-authn-authz/rbac/"<p style="color:blue;">RBAC
+			<DT><A HREF="https://kubernetes.io/docs/reference/access-authn-authz/rbac/#role-and-clusterrole"><b>RBAC: </b> Role & ClusterRole </a>
+			<DT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp;<A HREF="https://kubernetes.io/docs/reference/access-authn-authz/rbac/#rolebinding-and-clusterrolebinding">RoleBinding & ClusterRoleBinding</a>
+			<DT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp;<A HREF="https://kubernetes.io/docs/reference/access-authn-authz/rbac/#kubectl-create-role">Role/ClusterRole/bindings - create imperatively </a>
+			<DT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<A HREF="https://kubernetes.io/docs/concepts/policy/resource-quotas/#object-count-quota"><b>ResourceQuota:</b> </a>
+			<DT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<A HREF="https://kubernetes.io/docs/concepts/policy/resource-quotas/#requests-vs-limits">LimitRanges </a>
+			
+			<DT> -------------------------------------------------<A HREF="https://kubernetes.io/docs/concepts/storage/"<p style="color:blue;">STORAGE</a>
+			<DT><A HREF="https://kubernetes.io/docs/tasks/configure-pod-container/configure-persistent-volume-storage/#create-a-persistentvolume"><b>PV:</b> with hostPath</a>
+			<DT>&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp;<A HREF="https://kubernetes.io/docs/concepts/storage/persistent-volumes/#persistent-volumes" >mount nfs</a>
+			<DT>&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp;<A HREF="https://kubernetes.io/docs/concepts/storage/volumes/#emptydir-configuration-example" >mount emptyDir - (type of volumes)</a>
+            <DT><A HREF="https://kubernetes.io/docs/concepts/storage/persistent-volumes/#persistentvolumeclaims"><b>PVC:</b> request storage</a>
+			<DT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp;<A HREF="https://kubernetes.io/docs/concepts/storage/persistent-volumes/#claims-as-volumes">PVC: claims as volumes</a>
+			<DT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp;<A HREF="https://kubernetes.io/docs/concepts/storage/persistent-volumes/#create-persistent-volume-claim-from-an-existing-pvc" >Create PVC from existing PVC</a>
+			<DT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp;<A HREF="https://kubernetes.io/docs/tasks/configure-pod-container/configure-persistent-volume-storage/#create-a-pod" >PV + PVC + Pod - Example</a>
+
+ 
+			<DT> -------------------------------------------------<A HREF=" https://kubernetes.io/docs/concepts/services-networking/"<p style="color:blue;">Networking</a>
+			
+			<DT><A HREF="https://kubernetes.io/docs/concepts/services-networking/network-policies/#networkpolicy-resource"><b>networkPolicy:</b> Ingress & Egress</a>
+			<DT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp;<A HREF="https://kubernetes.io/docs/concepts/services-networking/network-policies/#default-policies">default policies</a>
+			<DT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp;<A HREF="https://kubernetes.io/docs/tasks/administer-cluster/declare-network-policy/#test-the-service-by-accessing-it-from-another-pod">test via busybox</a>
+			<DT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp;<A HREF="https://kubernetes.io/docs/tasks/administer-cluster/declare-network-policy/#limit-access-to-the-nginx-service">Declaration</a>
+			<DT><A HREF="https://kubernetes.io/docs/concepts/services-networking/ingress/#simple-fanout"><b>Ingress:</b> fanout /foo /bar</a>
+			<DT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;<A HREF="https://kubernetes.io/docs/tasks/access-application-cluster/ingress-minikube/#create-an-ingress">create & edit & test</a>
+            <DT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;<A HREF="https://kubernetes.io/fr/docs/concepts/services-networking/ingress/">Ingress Examples</a>
+			<DT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;<A HREF="https://kubernetes.io/docs/concepts/services-networking/ingress/#the-ingress-resource">Ingress resource- IngressClassName</a>
+			<DT><A HREF="https://kubernetes.io/docs/tasks/administer-cluster/dns-debugging-resolution/">Debugging DNS Resolution</a>
+			<DT><A HREF="https://kubernetes.io/docs/concepts/cluster-administration/addons/#networking-and-network-policy">Installing Addons</a>
+
+	
+			<DT> -------------------------------------------------<A HREF="https://kubernetes.io/docs/reference/kubectl/cheatsheet/"<p style="color:blue;">CHEATSHEET</a>
+			<DT><A HREF="https://kubernetes.io/docs/reference/kubectl/jsonpath/">JSONPath</a>
+			<DT><A HREF="https://kubernetes.io/docs/reference/kubectl/cheatsheet/#viewing-finding-resources" >View Find Resources</a>
+			
+			<DT> -------------------------------------------------<A HREF="https://kubernetes.io/docs/home/"<p style="color:blue;">Kubernates Doc</a>
+            <DT><A HREF="https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands">Kubectl Reference Docs</a>
+			<DT><A HREF="https://kubernetes.io/docs/setup/release/version-skew-policy/" >Kubernetes versioning</a>
+			<DT><A HREF="https://kubernetes.io/blog/2020/02/07/deploying-external-openstack-cloud-provider-with-kubeadm/">PORTS</a>
+			<DT><A HREF="https://kubernetes.io/docs/reference/kubectl/overview/">Kubectl Overview</a>
+
+			<DT><A HREF="https://kubernetes.io/docs/tasks/tools/install-kubectl/">Install kubectl, kube-apiserver, kube-scheduler, etc..</a>
+			<DT><A HREF="https://kubernetes.io/docs/reference/command-line-tools-reference/kubelet-tls-bootstrapping/" >TLS bootstrapping - Kubernetes</a>
+			<DT><A HREF="https://kubernetes.io/docs/tasks/administer-cluster/manage-resources/" >Manage Memory,CPU,API Resources</a>
+	        <DT><A HREF="https://kubernetes.io/docs/reference/config-api/kubelet-config.v1beta1/"> Kubelet config </A>
+			<DT><A HREF="https://kubernetes.io/docs/reference/command-line-tools-reference/kube-apiserver/"> kube-api config </A>
+			
+	  </TD>   	  
+</TR>
+	 
+</TABLE>
