@@ -114,8 +114,8 @@ select {
 /* Header */
 
 #header {
-	height: 210px;
-	padding: 0 0 0 310px;
+	height: 230px;
+	padding: 0 0 0 330px;
 	background: url(images/img02.jpg) no-repeat;
 }
 
@@ -154,20 +154,20 @@ select {
 
 #wrapper {
 	margin-right: 100px;
-	background: url(images/img05.jpg) repeat-y 310px 0;
+	background: url(images/img05.jpg) repeat-y 330px 0;
 }
 
 /* Sidebar */
 
 #sidebar {
 	float: left;
-	width: 310px;
+	width: 330px;
 }
 
 /* Content */
 
 #content {
-	margin-left: 310px;
+	margin-left: 330px;
 	padding: 30px;
 }
 
