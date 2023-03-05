@@ -5,6 +5,15 @@ http://templated.co
 Released for free under the Creative Commons Attribution License
 */
 
+@font-face
+{
+	font-family: 'kalimati';
+	src: url('fonts/kalimati');
+	src: url('fonts/kalimati.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
 * {
 	margin: 0;
 	padding: 0;
